@@ -4,21 +4,25 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-3">
       <h2 className="text-2xl lg:text-4xl items-center font-bold">
         my name is melvin.
       </h2>
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/about"></Link>
+            <Link href="https://github.com/eonsparks">
+              <Image src="/github.svg" alt="" width={40} height={40} />
+            </Link>
           </li>
           <li>
-            <Link href="/projects"></Link>
+            <Link href="https://x.com/sznmelvin">
+              <Image src="/twitter.svg" alt="" width={40} height={40} />
+            </Link>
           </li>
         </ul>
       </nav>
-      <div className="text-[14px] lg:text-[18px] text-gray-500">
+      <div className="text-[14px] lg:text-[18px] text-gray-500 flex flex-col gap-3 md:gap-1.5">
         <h1>
           hi, i&apos;m <span className="font-bold text-black">melvin</span>, a
           software engineer passionate about creating innovative AI solutions.
@@ -26,19 +30,17 @@ const Home = () => {
         </h1>
 
         <p>
-          i&apos;ve got experience in python, machine learning and i&apos;m
-          always pushing myself to learn more. whether it&apos;s building new
-          tech or solving complex problems, i&apos;m driven by a desire to make
-          things better and smarter.
+          i&apos;ve got experience in python, machine learning, full stack
+          development and i&apos;m always pushing myself to learn more. whether
+          it&apos;s building new tech or solving complex problems, i&apos;m
+          driven by a desire to make things better and smarter.
         </p>
 
         <p>
           outside of tech, i&apos;m a big anime fan, especially drawn to
           characters with dark, layered personalities. there&apos;s something
-          captivating about villains like lelouch lamperouge, eren yeager, light
-          yagami, and madara uchiha—they&apos;re not just villains, they&apos;re
-          masterminds with complex motivations. i find a lot of inspiration in
-          their stories, using that intrigue to fuel my creativity in tech.
+          captivating about villains—they&apos;re not just villains,
+          they&apos;re masterminds with complex motivations.
         </p>
 
         <p>
@@ -49,7 +51,13 @@ const Home = () => {
       </div>
 
       <div className="flex gap-0.5 items-center max-w-full flex-wrap">
-        <Image src="/locked-in.gif" width={88} height={31} alt="" />
+        <Image
+          src="/locked-in.gif"
+          width={88}
+          height={31}
+          alt=""
+          style={{ objectFit: "cover" }}
+        />
         <Image src="/lelouch.gif" width={88} height={31} alt="" />
         <Image src="/sea.gif" width={88} height={31} alt="" />
         <Image src="/retroanime.gif" width={88} height={31} alt="" />
