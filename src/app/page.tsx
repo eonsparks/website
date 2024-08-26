@@ -4,7 +4,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="space-y-3">
+    <div className="space-y-5">
       <h2 className="text-2xl lg:text-4xl items-center font-bold">
         my name is melvin.
       </h2>
@@ -22,7 +22,7 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-      <div className="text-[14px] lg:text-[18px] text-gray-500 flex flex-col gap-3 md:gap-1.5">
+      <div className="text-[14px] lg:text-[18px] text-gray-500 flex flex-col gap-3 md:gap-3 lg:gap-2.5">
         <h1>
           hi, i&apos;m <span className="font-bold text-black">melvin</span>, a
           software engineer passionate about creating innovative AI solutions.
