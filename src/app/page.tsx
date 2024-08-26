@@ -11,7 +11,7 @@ const Home = () => {
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <Link href="https://github.com/eonsparks">
+            <Link href="https://github.com/sznmelvin">
               <Image src="/github.svg" alt="" width={40} height={40} />
             </Link>
           </li>
