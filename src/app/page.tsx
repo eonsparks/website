@@ -60,7 +60,7 @@ const Home = () => {
 
       <div className="min-h-20 flex items-center  text-white z-[1] border-y-black border-y w-full">
         <div className="w-[95%] flex items-center justify-center md:justify-between mx-auto text-xs md:text-sm -tracking-wider text-zinc-900 dark:text-zinc-400">
-          <p className="hover:text-orange-500">© 2024 melvin.</p>
+          <p className="text-black hover:text-orange-500">© 2024 melvin.</p>
           <p className="hidden md:block hover:text-green-500">
             thank you for visiting.
           </p>
